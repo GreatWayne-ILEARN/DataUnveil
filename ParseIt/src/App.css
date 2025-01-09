@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-parms textarea {
+    width: 400px;
+}
+
+
+@media (max-width: 1000px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+    .header-parms textarea {
+        width: 100%;
+        /* height: 65vh; */
+    }
+
+}
